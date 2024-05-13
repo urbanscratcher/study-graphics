@@ -1,11 +1,8 @@
 # Computer Graphics
 
-- 컴퓨터 그래픽스 수업에서 작성한 p5js 코드
+- A personally practiced p5js code for my computer graphics course
 
 ## Weekly Logs
 
-| Week | Title   | Summary |
-| :--: | ------- | ------- |
-|  1   | OOP     |         |
-|      | 2D 변환 |         |
-|  2   |         |         |
+1. W1 - OOP
+2. W1 - 2D Transformation
