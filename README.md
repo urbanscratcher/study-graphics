@@ -7,6 +7,7 @@
 ### Week 1
 
 #### 1. OOP
+<details>
 - 객체 지향 프로그래밍(OOP) 개념 학습
   - 클래스(Class)를 정의하고 객체(Object)를 생성하는 방법
   - 생성자(Constructor)를 사용하여 객체 초기화
@@ -25,7 +26,7 @@
   - 버튼의 위치, 크기, 상태 등을 속성으로 정의
   - draw() 메서드로 버튼 그리기
   - flick() 메서드로 마우스 클릭 시 버튼 상태 변경
-
+</details>
 [w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
 
 #### 2. 2D Transformation
