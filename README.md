@@ -1,6 +1,6 @@
 # Graphics Programming
 
-- A personally practiced p5js code for my computer graphics course
+- A personally practiced p5js code for my graphics programming course
 
 ## Weekly Logs
 
