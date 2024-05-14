@@ -168,8 +168,10 @@
   - 공은 힘의 영향을 받아 움직이며, 경계면에 부딪히면 반사됨
   - `move()` 메소드: 속도에 가속도를 더하고, 위치에 속도를 더하여 공의 움직임을 업데이트함
   - `bounce()` 메소드: 공이 경계면에 부딪힐 때 속도의 방향을 반전시켜 반사 효과를 구현함
+ 
+  [w3-forces.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/07578e4e-9086-4a7f-bec4-df46b0840d59)
 
-1. Gravity and Friction
+2. Gravity and Friction
 
 - 중력(Gravity)과 마찰력(Friction)을 시뮬레이션하는 예제 코드
   - 중력: 질량을 가진 모든 물체가 서로 끌어당기는 자연 현상
@@ -188,7 +190,9 @@
   - 중력과 마찰력을 시뮬레이션하여 공의 움직임을 구현하는 예제임
   - 이를 바탕으로 다양한 물리 현상을 시뮬레이션할 수 있음
 
-2. Particles
+  [w3-friction.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/fdb97c59-8436-495a-a123-5a7749519d8a)
+
+3. Particles
 
 - 마우스를 드래그할 때 생성되는 공들이 중력과 마찰력의 영향을 받아 떨어지고 바닥에서 튕기는 시뮬레이션 코드
 - 주요 함수
@@ -221,7 +225,9 @@
   - `mouseDragged()` 마우스 드래그 시 새로운 공 생성하여 `balls` 배열에 추가
   - `mousePressed()` "Clear" 버튼 클릭 시 `balls` 배열 초기화
 
-3. Collision Detection
+  [w3-particle.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d77aed23-4c37-477a-9121-0d50b542ae68)
+
+4. Collision Detection
 
 - 마우스 드래그로 생성한 공들이 중력, 마찰력의 영향을 받으며 움직이고 충돌하는 시뮬레이션 코드
   - 마우스 드래그 이벤트로 공 생성, 버튼 클릭 이벤트로 공 제거 기능 구현
@@ -246,3 +252,5 @@
   - `draw()` 함수: 공의 물리 효과 적용, 충돌 검사, 그리기 수행
   - `mouseDragged()` 함수: 마우스 드래그 시 공 생성하여 배열에 추가
   - `mousePressed()` 함수: 버튼 클릭 시 공 배열 초기화
+
+  [w3-particle2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e3e6ed01-f69b-4647-943d-45ff16eca4dd)
