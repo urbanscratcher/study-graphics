@@ -11,14 +11,14 @@
      - 생성자(Constructor)를 사용하여 객체 초기화
      - 객체의 속성(Properties)과 메서드(Methods) 정의
    - p5.js 라이브러리 활용
-     - setup() 함수로 초기 설정
-     - draw() 함수로 애니메이션 루프 생성
-     - createCanvas() 함수로 캔버스 생성
-     - background() 함수로 배경색 설정
-     - fill() 함수로 도형 채우기 색상 설정
-     - rect() 함수로 사각형 그리기
+     - setup() 초기 설정
+     - draw() 애니메이션 루프 생성
+     - createCanvas() 캔버스 생성
+     - background() 배경색 설정
+     - fill() 도형 채우기 색상 설정
+     - rect() 사각형 그리기
    - 인터랙티브한 요소 구현
-     - mousePressed() 함수로 마우스 클릭 이벤트 처리
+     - mousePressed() 마우스 클릭 이벤트 처리
      - 조건문을 사용하여 마우스 클릭 위치에 따른 동작 제어
    - 버튼 클래스 구현
      - 버튼의 위치, 크기, 상태 등을 속성으로 정의
@@ -27,22 +27,22 @@
 
    [w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
 
-1. W1 - 2D Transformation
+2. W1 - 2D Transformation
 
    - 2D 변환 매트릭스 활용
-     - translate() 함수로 좌표계 이동
-     - rotate() 함수로 좌표계 회전
-     - scale() 함수로 좌표계 크기 조정
+     - translate() 좌표계 이동
+     - rotate() 좌표계 회전
+     - scale() 좌표계 크기 조정
      - push()와 pop() 함수로 변환 매트릭스 상태 저장 및 복원
    - 도형 그리기 함수 사용
-     - rect() 함수로 사각형 그리기
-     - ellipse() 함수로 원 그리기
-     - line() 함수로 선 그리기
-     - triangle() 함수로 삼각형 그리기
+     - rect() 사각형 그리기
+     - ellipse() 원 그리기
+     - line() 선 그리기
+     - triangle() 삼각형 그리기
    - 시계 그리기 예제
      - 초침, 분침, 시침을 각도에 따라 회전하여 그리기
      - map() 함수를 사용하여 시간 값을 각도로 변환
-     - radians() 함수로 각도를 라디안 단위로 변환
+     - radians() 각도를 라디안 단위로 변환
    - 마우스 위치에 따른 객체 그리기
      - mouseX와 mouseY 변수를 사용하여 마우스 위치 추적
      - 마우스 위치를 기준으로 객체 (고양이) 그리기
@@ -50,13 +50,13 @@
      - 각 기능을 별도의 함수로 분리하여 코드 구조화
      - drawTransFigures(), drawCat(), rotRect(), tempTrans(), drawClock() 등의 함수 사용
    - 스타일 설정 함수 사용
-     - fill() 함수로 도형 채우기 색상 설정
-     - stroke() 함수로 선 색상 설정
-     - strokeWeight() 함수로 선 두께 설정
+     - fill() 도형 채우기 색상 설정
+     - stroke() 선 색상 설정
+     - strokeWeight() 선 두께 설정
 
    [w1-2d2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/7de0f7d9-ee8e-4de6-8623-a2a307aa09eb)
 
-1. W2 - Bouncing Ball (Vector Addition)
+3. W2 - Bouncing Ball (Vector Addition)
 
    - 객체 지향 프로그래밍(OOP) 개념 학습
      - Ball 클래스를 정의하여 공의 속성과 동작을 캡슐화
@@ -74,10 +74,10 @@
 
    [w2-bouncing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34ff5b6e-bc38-4c6c-89f2-13dab70502d6)
 
-1. W2 - Vector Operations
+4. W2 - Vector Operations
 
    - 벡터(Vector) 연산 이해
-     - createVector() 함수를 사용하여 벡터 생성
+     - createVector() 벡터 생성
      - sub() 메서드를 사용하여 두 벡터의 차이 계산
      - mag() 메서드를 사용하여 벡터의 크기(magnitude) 계산
      - normalize() 메서드를 사용하여 벡터 정규화(크기를 1로 만듦)
@@ -99,11 +99,11 @@
      - div() 메서드를 사용하여 벡터에 스칼라 나눗셈 적용
    - 화면 중심을 기준으로 선 그리기
      - translate() 함수를 사용하여 화면 중심으로 좌표계 이동
-     - strokeWeight() 함수를 사용하여 선의 두께 설정
+     - strokeWeight() 선의 두께 설정
 
    [w2-vector.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/c24e8043-5bcc-4871-9294-e4db96bd5ebf)
 
-1. W2 - Acceleration
+5. W2 - Acceleration
 
    - 가속도(Acceleration) 개념 도입
      - acceleration 벡터를 사용하여 공의 가속도 표현
@@ -114,15 +114,17 @@
    - 속도 제한 설정
      - limit() 메서드를 사용하여 속도의 크기를 제한
      - maxVelocity 변수를 사용하여 최대 속도 값 설정
-   - 화면 경계 처리 변경 - edges() 메서드에서 공이 화면 경계를 벗어날 때 반대편 경계로 이동하도록 처리 - 이를 통해 공이 화면을 계속 순환하는 효과를 구현
+   - 화면 경계 처리
+     - edges() 메서드에서 공이 화면 경계를 벗어날 때 반대편 경계로 이동하도록 처리
+     - 이를 통해 공이 화면을 계속 순환하는 효과를 구현
 
    [w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
 
-1. W2 - Mouse Tracing
+6. W2 - Mouse Tracing
 
    - 마우스 위치를 따라가는 공의 움직임 구현
      - createVector(mouseX, mouseY)를 사용하여 마우스 위치를 벡터로 생성
-     - p5.Vector.sub()를 사용하여 마우스 위치와 공의 위치 사이의 방향 벡터 계산
+     - 정적 함수 p5.Vector.sub()를 사용하여 마우스 위치와 공의 위치 사이의 방향 벡터 계산
      - 방향 벡터를 정규화(normalize)하고 일정한 크기를 곱하여 가속도로 설정
    - 공의 궤적을 선으로 그리기
      - prevLocation 벡터를 사용하여 이전 프레임에서의 공의 위치 저장
