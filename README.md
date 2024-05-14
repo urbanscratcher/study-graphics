@@ -23,11 +23,12 @@
   - mousePressed() 마우스 클릭 이벤트 처리
   - 조건문을 사용하여 마우스 클릭 위치에 따른 동작 제어
 - 버튼 클래스 구현
+
   - 버튼의 위치, 크기, 상태 등을 속성으로 정의
   - draw() 메서드로 버튼 그리기
   - flick() 메서드로 마우스 클릭 시 버튼 상태 변경
 
-[w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
+  [w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
 
 2. 2D Transformation
 
@@ -74,9 +75,10 @@
   - move() 메서드에서 벡터 연산을 통해 공의 위치 업데이트
   - bounce() 메서드에서 공이 화면 경계에 닿았을 때 속도의 방향을 반전시켜 공이 화면 내에서 튕기도록 처리
 - 랜덤 값 생성
+
   - random() 함수를 사용하여 공의 초기 위치와 속도를 랜덤하게 설정
 
-[w2-bouncing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34ff5b6e-bc38-4c6c-89f2-13dab70502d6)
+  [w2-bouncing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34ff5b6e-bc38-4c6c-89f2-13dab70502d6)
 
 2. Vector Operations
 
@@ -102,10 +104,11 @@
   - mult() 메서드를 사용하여 벡터에 스칼라 곱셈 적용
   - div() 메서드를 사용하여 벡터에 스칼라 나눗셈 적용
 - 화면 중심을 기준으로 선 그리기
+
   - translate() 함수를 사용하여 화면 중심으로 좌표계 이동
   - strokeWeight() 선의 두께 설정
 
-[w2-vector.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/c24e8043-5bcc-4871-9294-e4db96bd5ebf)
+  [w2-vector.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/c24e8043-5bcc-4871-9294-e4db96bd5ebf)
 
 3. Acceleration
 
@@ -119,10 +122,11 @@
   - limit() 메서드를 사용하여 속도의 크기를 제한
   - maxVelocity 변수를 사용하여 최대 속도 값 설정
 - 화면 경계 처리
+
   - edges() 메서드에서 공이 화면 경계를 벗어날 때 반대편 경계로 이동하도록 처리
   - 이를 통해 공이 화면을 계속 순환하는 효과를 구현
 
-[w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
+  [w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
 
 4. Mouse Tracing
 
@@ -135,13 +139,14 @@
   - line() 함수를 사용하여 현재 위치와 이전 위치 사이에 선 그리기
   - copy() 메서드를 사용하여 현재 위치를 이전 위치로 업데이트
 - 배경을 지우지 않고 공의 궤적 누적
+
   - draw() 함수에서 background() 함수를 호출하는 대신, setup()에서 호출함으로써 이전 프레임의 그림을 유지
   - 이를 통해 공의 궤적이 화면에 누적되어 그려짐
 
-[w2-tracing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/54ff64f5-abae-4c56-96f3-17751bd90f5a)
+  [w2-tracing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/54ff64f5-abae-4c56-96f3-17751bd90f5a)
 
 5. W2 - Mouse Patterns
 
-[w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
+   [w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
 
 ### Week 3
