@@ -7,26 +7,24 @@
 ### Week 1
 
 1. OOP
-
-- 객체 지향 프로그래밍(OOP) 개념 학습
-  - 클래스(Class)를 정의하고 객체(Object)를 생성하는 방법
-  - 생성자(Constructor)를 사용하여 객체 초기화
-  - 객체의 속성(Properties)과 메서드(Methods) 정의
-- p5.js 라이브러리 활용
-  - setup() 초기 설정
-  - draw() 애니메이션 루프 생성
-  - createCanvas() 캔버스 생성
-  - background() 배경색 설정
-  - fill() 도형 채우기 색상 설정
-  - rect() 사각형 그리기
-- 인터랙티브한 요소 구현
-  - mousePressed() 마우스 클릭 이벤트 처리
-  - 조건문을 사용하여 마우스 클릭 위치에 따른 동작 제어
-- 버튼 클래스 구현
-
-  - 버튼의 위치, 크기, 상태 등을 속성으로 정의
-  - draw() 메서드로 버튼 그리기
-  - flick() 메서드로 마우스 클릭 시 버튼 상태 변경
+  - 객체 지향 프로그래밍(OOP) 개념 학습
+    - 클래스(Class)를 정의하고 객체(Object)를 생성하는 방법
+    - 생성자(Constructor)를 사용하여 객체 초기화
+    - 객체의 속성(Properties)과 메서드(Methods) 정의
+  - p5.js 라이브러리 활용
+    - setup() 초기 설정
+    - draw() 애니메이션 루프 생성
+    - createCanvas() 캔버스 생성
+    - background() 배경색 설정
+    - fill() 도형 채우기 색상 설정
+    - rect() 사각형 그리기
+  - 인터랙티브한 요소 구현
+    - mousePressed() 마우스 클릭 이벤트 처리
+    - 조건문을 사용하여 마우스 클릭 위치에 따른 동작 제어
+  - 버튼 클래스 구현
+    - 버튼의 위치, 크기, 상태 등을 속성으로 정의
+    - draw() 메서드로 버튼 그리기
+    - flick() 메서드로 마우스 클릭 시 버튼 상태 변경
 
   [w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
 
