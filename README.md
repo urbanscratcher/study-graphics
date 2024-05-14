@@ -12,4 +12,14 @@
 
 [w1-2d2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/7de0f7d9-ee8e-4de6-8623-a2a307aa09eb)
 
+3. W2 - Bouncing Ball (Vector Addition)
 
+4. W2 - Vector Operations
+
+   - Vector Subtraction, Multiplication, Division
+   - Calculating Magnitude
+   - Normalization
+
+5. W2 - Acceleration
+
+6. W2 - Mouse Tracing
