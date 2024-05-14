@@ -135,3 +135,7 @@
      - 이를 통해 공의 궤적이 화면에 누적되어 그려짐
 
    [w2-tracing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/54ff64f5-abae-4c56-96f3-17751bd90f5a)
+
+7. W2 - Mouse Patterns
+
+   [w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
