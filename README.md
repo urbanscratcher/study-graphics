@@ -1,4 +1,4 @@
-# Computer Graphics
+# Graphics Programming
 
 - A personally practiced p5js code for my computer graphics course
 
