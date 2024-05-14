@@ -8,8 +8,7 @@
 
 #### 1. OOP
 <details>
-  
-- 객체 지향 프로그래밍(OOP) 개념 학습
+<summary>객체 지향 프로그래밍(OOP) 개념 학습</summary>
   - 클래스(Class)를 정의하고 객체(Object)를 생성하는 방법
   - 생성자(Constructor)를 사용하여 객체 초기화
   - 객체의 속성(Properties)과 메서드(Methods) 정의
@@ -29,10 +28,13 @@
   - flick() 메서드로 마우스 클릭 시 버튼 상태 변경
   
 </details>
+
 [w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
 
 #### 2. 2D Transformation
-- 2D 변환 매트릭스 활용
+<details>
+  
+<summary>2D 변환 매트릭스 활용</summary>
   - translate() 좌표계 이동
   - rotate() 좌표계 회전
   - scale() 좌표계 크기 조정
@@ -56,13 +58,16 @@
   - fill() 도형 채우기 색상 설정
   - stroke() 선 색상 설정
   - strokeWeight() 선 두께 설정
+ 
+</details>
 
 [w1-2d2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/7de0f7d9-ee8e-4de6-8623-a2a307aa09eb)
 
 ### Week 2
 
 #### 1. Bouncing Ball (Vector Addition)
-
+<details>
+  <summary>Vector Addition</summary>
 - 객체 지향 프로그래밍(OOP) 개념 학습
   - Ball 클래스를 정의하여 공의 속성과 동작을 캡슐화
   - 생성자(constructor)를 사용하여 Ball 객체 초기화
@@ -77,11 +82,13 @@
 - 랜덤 값 생성
   - random() 함수를 사용하여 공의 초기 위치와 속도를 랜덤하게 설정
 
+</details>
   [w2-bouncing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34ff5b6e-bc38-4c6c-89f2-13dab70502d6)
 
 #### 2. Vector Operations
 
-- 벡터(Vector) 연산 이해
+<details>
+  <summary>벡터(Vector) 연산 이해</summary>
   - createVector() 벡터 생성
   - sub() 메서드를 사용하여 두 벡터의 차이 계산
   - mag() 메서드를 사용하여 벡터의 크기(magnitude) 계산
@@ -103,9 +110,10 @@
   - mult() 메서드를 사용하여 벡터에 스칼라 곱셈 적용
   - div() 메서드를 사용하여 벡터에 스칼라 나눗셈 적용
 - 화면 중심을 기준으로 선 그리기
-
   - translate() 함수를 사용하여 화면 중심으로 좌표계 이동
   - strokeWeight() 선의 두께 설정
+
+</details>
 
   [w2-vector.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/c24e8043-5bcc-4871-9294-e4db96bd5ebf)
 
