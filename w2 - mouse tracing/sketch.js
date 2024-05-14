@@ -1,3 +1,5 @@
+let ball;
+
 function setup() {
   createCanvas(900, 600);
   background(0);
@@ -37,7 +39,7 @@ class Ball {
 
   move() {
     // Follow the mouse
-    let mouse = createVector(mouseX, mouseY);
+    let mouse = new createVector(mouseX, mouseY);
     let dir = p5.Vector.sub(mouse, this.location);
     dir.normalize();
     dir.mult(0.3);
