@@ -10,8 +10,6 @@ function draw() {
 
 class Ball {
   constructor() {
-    // this.velocity = new createVector(random(-2, 2), random(-2, 2));
-    // this.location = new createVector(random(width), random(height));
     this.velocity = new createVector(0, 0);
     this.location = new createVector(width / 2, height / 2);
     this.prevLocation = new createVector(width / 2, height / 2);
@@ -22,13 +20,10 @@ class Ball {
   run() {
     this.draw();
     this.move();
-    // this.bounce();
     this.edges();
   }
 
   draw() {
-    // fill(125);
-    // ellipse(this.location.x, this.location.y, 40, 40);
     stroke(255);
     strokeWeight(3);
     line(
@@ -61,14 +56,5 @@ class Ball {
     else if (this.location.x > width) this.location.x = 0;
     if (this.location.y < 0) this.location.y = height;
     else if (this.location.y > height) this.location.y = 0;
-  }
-
-  bounce() {
-    if (this.location.x < 0 || this.location.x > width) {
-      this.velocity.x *= -1;
-    }
-    if (this.location.y < 0 || this.location.y > height) {
-      this.velocity.y *= -1;
-    }
   }
 }
