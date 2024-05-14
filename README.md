@@ -8,8 +8,9 @@
 
 #### 1. OOP
 <details>
-<summary>객체 지향 프로그래밍(OOP) 개념 학습</summary>
+<summary>Note</summary>
   
+- 객체 지향 프로그래밍(OOP) 개념 학습
   - 클래스(Class)를 정의하고 객체(Object)를 생성하는 방법
   - 생성자(Constructor)를 사용하여 객체 초기화
   - 객체의 속성(Properties)과 메서드(Methods) 정의
@@ -34,8 +35,9 @@
 
 #### 2. 2D Transformation
 <details>
-<summary>2D 변환 매트릭스 활용</summary>
-
+<summary>Note</summary>
+  
+- 2D 변환 매트릭스 활용
   - translate() 좌표계 이동
   - rotate() 좌표계 회전
   - scale() 좌표계 크기 조정
@@ -68,7 +70,7 @@
 
 #### 1. Bouncing Ball (Vector Addition)
 <details>
-  <summary>Vector Addition</summary>
+  <summary>Note</summary>
   
 - 객체 지향 프로그래밍(OOP) 개념 학습
   - Ball 클래스를 정의하여 공의 속성과 동작을 캡슐화
@@ -90,8 +92,9 @@
 #### 2. Vector Operations
 
 <details>
-  <summary>벡터(Vector) 연산 이해</summary>
-  
+  <summary>Note</summary>
+
+- 벡터(Vector) 연산 이해
   - createVector() 벡터 생성
   - sub() 메서드를 사용하여 두 벡터의 차이 계산
   - mag() 메서드를 사용하여 벡터의 크기(magnitude) 계산
@@ -122,6 +125,9 @@
 
 #### 3. Acceleration
 
+<details>
+<summary>Note</summary>
+  
 - 가속도(Acceleration) 개념 도입
   - acceleration 벡터를 사용하여 공의 가속도 표현
   - 가속도는 프레임마다 일정한 값으로 설정됨
@@ -136,10 +142,14 @@
   - edges() 메서드에서 공이 화면 경계를 벗어날 때 반대편 경계로 이동하도록 처리
   - 이를 통해 공이 화면을 계속 순환하는 효과를 구현
 
+</details>
+
   [w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
 
 #### 4. Mouse Tracing
-
+<details>
+<summary>Note</summary>
+  
 - 마우스 위치를 따라가는 공의 움직임 구현
   - createVector(mouseX, mouseY)를 사용하여 마우스 위치를 벡터로 생성
   - 정적 함수 p5.Vector.sub()를 사용하여 마우스 위치와 공의 위치 사이의 방향 벡터 계산
@@ -149,9 +159,10 @@
   - line() 함수를 사용하여 현재 위치와 이전 위치 사이에 선 그리기
   - copy() 메서드를 사용하여 현재 위치를 이전 위치로 업데이트
 - 배경을 지우지 않고 공의 궤적 누적
-
   - draw() 함수에서 background() 함수를 호출하는 대신, setup()에서 호출함으로써 이전 프레임의 그림을 유지
   - 이를 통해 공의 궤적이 화면에 누적되어 그려짐
+
+</details>
 
   [w2-tracing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/54ff64f5-abae-4c56-96f3-17751bd90f5a)
 
@@ -162,7 +173,9 @@
 ### Week 3
 
 #### 1. Forces
-
+<details>
+<summary>Note</summary>
+  
 - 힘(Force)과 가속도(Acceleration)의 개념을 구현한 물리 시뮬레이션
   - 힘과 가속도를 이용하여 객체의 움직임을 구현하는 방법을 설명
   - 힘은 질량을 가진 물체를 가속시키는 벡터임
@@ -180,10 +193,15 @@
   - `move()` 메소드: 속도에 가속도를 더하고, 위치에 속도를 더하여 공의 움직임을 업데이트함
   - `bounce()` 메소드: 공이 경계면에 부딪힐 때 속도의 방향을 반전시켜 반사 효과를 구현함
 
+</details>
+
   [w3-forces.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/07578e4e-9086-4a7f-bec4-df46b0840d59)
 
 #### 2. Gravity and Friction
 
+<details>
+<summary>Note</summary>
+  
 - 중력(Gravity)과 마찰력(Friction)을 시뮬레이션하는 예제 코드
   - 중력: 질량을 가진 모든 물체가 서로 끌어당기는 자연 현상
     - p5에서는 (0, 0.1)의 값을 가진 벡터를 가속도에 추가하여 구현
@@ -202,10 +220,14 @@
   - 중력과 마찰력을 시뮬레이션하여 공의 움직임을 구현하는 예제임
   - 이를 바탕으로 다양한 물리 현상을 시뮬레이션할 수 있음
 
+</details>
+
   [w3-friction.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/fdb97c59-8436-495a-a123-5a7749519d8a)
 
 #### 3. Particles
-
+<details>
+<summary>Note</summary>
+  
 - 마우스를 드래그할 때 어지고 바닥에서 튕기는 시뮬레이션 코드
   - 중력과 마찰력의 영향을 받아 공들이 자연스럽게 떨어지고 바닥에서 튕김
   - "Clear" 버튼으로 화면 초기화 가능
@@ -222,10 +244,14 @@
   - `mouseDragged()`: 마우스 드래그로 공 생성
   - `mousePressed()`: 버튼 클릭으로 화면 초기화
 
+</details>
+
   [w3-particle.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d77aed23-4c37-477a-9121-0d50b542ae68)
 
 #### 4. Collision Detection
-
+<details>
+<summary>Note</summary>
+  
 - 마우스 드래그로 생성한 공들이 중력, 마찰력의 영향을 받으며 움직이고 충돌하는 시뮬레이션 코드
   - 마우스 드래그 이벤트로 공 생성, 버튼 클릭 이벤트로 공 제거 기능 구현
   - 중력, 마찰력을 적용하여 공의 움직임을 자연스럽게 표현
@@ -250,5 +276,7 @@
   - `draw()` 함수: 공의 물리 효과 적용, 충돌 검사, 그리기 수행
   - `mouseDragged()` 함수: 마우스 드래그 시 공 생성하여 배열에 추가
   - `mousePressed()` 함수: 버튼 클릭 시 공 배열 초기화
+
+</details>
 
   [w3-particle2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e3e6ed01-f69b-4647-943d-45ff16eca4dd)
