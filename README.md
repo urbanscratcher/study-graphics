@@ -87,7 +87,8 @@
   - random() 함수를 사용하여 공의 초기 위치와 속도를 랜덤하게 설정
 
 </details>
-  [w2-bouncing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34ff5b6e-bc38-4c6c-89f2-13dab70502d6)
+
+[w2-bouncing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34ff5b6e-bc38-4c6c-89f2-13dab70502d6)
 
 #### 2. Vector Operations
 
@@ -121,7 +122,7 @@
 
 </details>
 
-  [w2-vector.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/c24e8043-5bcc-4871-9294-e4db96bd5ebf)
+[w2-vector.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/c24e8043-5bcc-4871-9294-e4db96bd5ebf)
 
 #### 3. Acceleration
 
@@ -144,7 +145,7 @@
 
 </details>
 
-  [w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
+[w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
 
 #### 4. Mouse Tracing
 <details>
@@ -164,11 +165,11 @@
 
 </details>
 
-  [w2-tracing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/54ff64f5-abae-4c56-96f3-17751bd90f5a)
+[w2-tracing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/54ff64f5-abae-4c56-96f3-17751bd90f5a)
 
 #### 5. Mouse Patterns
 
-   [w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
+ [w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
 
 ### Week 3
 
@@ -195,7 +196,7 @@
 
 </details>
 
-  [w3-forces.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/07578e4e-9086-4a7f-bec4-df46b0840d59)
+[w3-forces.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/07578e4e-9086-4a7f-bec4-df46b0840d59)
 
 #### 2. Gravity and Friction
 
@@ -222,7 +223,7 @@
 
 </details>
 
-  [w3-friction.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/fdb97c59-8436-495a-a123-5a7749519d8a)
+[w3-friction.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/fdb97c59-8436-495a-a123-5a7749519d8a)
 
 #### 3. Particles
 <details>
@@ -246,7 +247,7 @@
 
 </details>
 
-  [w3-particle.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d77aed23-4c37-477a-9121-0d50b542ae68)
+[w3-particle.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d77aed23-4c37-477a-9121-0d50b542ae68)
 
 #### 4. Collision Detection
 <details>
@@ -279,4 +280,4 @@
 
 </details>
 
-  [w3-particle2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e3e6ed01-f69b-4647-943d-45ff16eca4dd)
+[w3-particle2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e3e6ed01-f69b-4647-943d-45ff16eca4dd)
