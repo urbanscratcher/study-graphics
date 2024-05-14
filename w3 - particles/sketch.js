@@ -1,9 +1,8 @@
 // Code particles that fall when the mouse is dragged and bounce on the ground
-
 let balls;
 let clearButton;
 
-///////////////////////////////////////////////
+///////////////////////////////////////////
 function setup() {
   createCanvas(900, 600);
   balls = [];
@@ -13,7 +12,7 @@ function setup() {
 function draw() {
   background(0);
   clearButton.draw();
-  balls.forEach((ball) => {
+  balls.forEach(function (ball) {
     // apply gravity
     let gravity = new createVector(0, 0.1);
     ball.applyForce(gravity);
@@ -27,18 +26,16 @@ function draw() {
 
     // reduce alpha value of the color of the ball
     ball.age -= 1;
-
     ball.run();
   });
 }
 
-// Classes ---------------------------------------
+///////////////////////////////////////////
 class Ball {
   constructor(mouseX, mouseY, color) {
     this.age = 255;
     this.color = color;
     this.color.setAlpha(this.age);
-
     this.acceleration = new createVector(0, 0);
     this.velocity = new createVector(random(-3, 3), random(-3, 3));
     this.location = new createVector(mouseX, mouseY);
@@ -61,9 +58,6 @@ class Ball {
   move() {
     this.velocity.add(this.acceleration);
     this.location.add(this.velocity);
-
-    // Empty the bucket for other forces in the next frame added to it by multiplying 0
-    // Initialize the accumulated force to 0
     this.acceleration.mult(0);
     this.velocity.limit(8);
   }
@@ -91,11 +85,11 @@ class Ball {
 }
 
 class Button {
-  unhoveredColor = color(200);
-  hoveredColor = color(180);
-  clickedColor = color(160);
-
   constructor(locX, locY, width, height, text) {
+    this.unhoveredColor = color(200);
+    this.hoveredColor = color(180);
+    this.clickedColor = color(160);
+
     this.locX = locX;
     this.locY = locY;
     this.width = width;
@@ -108,7 +102,6 @@ class Button {
     this.changeBgColor();
     fill(this.color);
     rect(this.locX, this.locY, this.width, this.height);
-
     fill(0);
     textSize(20);
     textAlign(CENTER, CENTER);
@@ -142,7 +135,7 @@ class Button {
   }
 }
 
-// Event Handlers --------------------------------
+///////////////////////////////////////////
 function mouseDragged() {
   balls.push(
     new Ball(
