@@ -6,30 +6,29 @@
 
 ### Week 1
 
-1. OOP
-  - 객체 지향 프로그래밍(OOP) 개념 학습
-    - 클래스(Class)를 정의하고 객체(Object)를 생성하는 방법
-    - 생성자(Constructor)를 사용하여 객체 초기화
-    - 객체의 속성(Properties)과 메서드(Methods) 정의
-  - p5.js 라이브러리 활용
-    - setup() 초기 설정
-    - draw() 애니메이션 루프 생성
-    - createCanvas() 캔버스 생성
-    - background() 배경색 설정
-    - fill() 도형 채우기 색상 설정
-    - rect() 사각형 그리기
-  - 인터랙티브한 요소 구현
-    - mousePressed() 마우스 클릭 이벤트 처리
-    - 조건문을 사용하여 마우스 클릭 위치에 따른 동작 제어
-  - 버튼 클래스 구현
-    - 버튼의 위치, 크기, 상태 등을 속성으로 정의
-    - draw() 메서드로 버튼 그리기
-    - flick() 메서드로 마우스 클릭 시 버튼 상태 변경
+#### 1. OOP
+- 객체 지향 프로그래밍(OOP) 개념 학습
+  - 클래스(Class)를 정의하고 객체(Object)를 생성하는 방법
+  - 생성자(Constructor)를 사용하여 객체 초기화
+  - 객체의 속성(Properties)과 메서드(Methods) 정의
+- p5.js 라이브러리 활용
+  - setup() 초기 설정
+  - draw() 애니메이션 루프 생성
+  - createCanvas() 캔버스 생성
+  - background() 배경색 설정
+  - fill() 도형 채우기 색상 설정
+  - rect() 사각형 그리기
+- 인터랙티브한 요소 구현
+  - mousePressed() 마우스 클릭 이벤트 처리
+  - 조건문을 사용하여 마우스 클릭 위치에 따른 동작 제어
+- 버튼 클래스 구현
+  - 버튼의 위치, 크기, 상태 등을 속성으로 정의
+  - draw() 메서드로 버튼 그리기
+  - flick() 메서드로 마우스 클릭 시 버튼 상태 변경
 
-  [w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
+[w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
 
-2. 2D Transformation
-
+#### 2. 2D Transformation
 - 2D 변환 매트릭스 활용
   - translate() 좌표계 이동
   - rotate() 좌표계 회전
@@ -59,7 +58,7 @@
 
 ### Week 2
 
-1. Bouncing Ball (Vector Addition)
+#### 1. Bouncing Ball (Vector Addition)
 
 - 객체 지향 프로그래밍(OOP) 개념 학습
   - Ball 클래스를 정의하여 공의 속성과 동작을 캡슐화
@@ -73,12 +72,11 @@
   - move() 메서드에서 벡터 연산을 통해 공의 위치 업데이트
   - bounce() 메서드에서 공이 화면 경계에 닿았을 때 속도의 방향을 반전시켜 공이 화면 내에서 튕기도록 처리
 - 랜덤 값 생성
-
   - random() 함수를 사용하여 공의 초기 위치와 속도를 랜덤하게 설정
 
   [w2-bouncing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34ff5b6e-bc38-4c6c-89f2-13dab70502d6)
 
-2. Vector Operations
+#### 2. Vector Operations
 
 - 벡터(Vector) 연산 이해
   - createVector() 벡터 생성
@@ -108,7 +106,7 @@
 
   [w2-vector.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/c24e8043-5bcc-4871-9294-e4db96bd5ebf)
 
-3. Acceleration
+#### 3. Acceleration
 
 - 가속도(Acceleration) 개념 도입
   - acceleration 벡터를 사용하여 공의 가속도 표현
@@ -126,7 +124,7 @@
 
   [w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
 
-4. Mouse Tracing
+#### 4. Mouse Tracing
 
 - 마우스 위치를 따라가는 공의 움직임 구현
   - createVector(mouseX, mouseY)를 사용하여 마우스 위치를 벡터로 생성
@@ -143,13 +141,13 @@
 
   [w2-tracing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/54ff64f5-abae-4c56-96f3-17751bd90f5a)
 
-5. W2 - Mouse Patterns
+#### 5. Mouse Patterns
 
    [w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
 
 ### Week 3
 
-1. Forces
+#### 1. Forces
 
 - 힘(Force)과 가속도(Acceleration)의 개념을 구현한 물리 시뮬레이션
   - 힘과 가속도를 이용하여 객체의 움직임을 구현하는 방법을 설명
@@ -170,7 +168,7 @@
 
   [w3-forces.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/07578e4e-9086-4a7f-bec4-df46b0840d59)
 
-2. Gravity and Friction
+#### 2. Gravity and Friction
 
 - 중력(Gravity)과 마찰력(Friction)을 시뮬레이션하는 예제 코드
   - 중력: 질량을 가진 모든 물체가 서로 끌어당기는 자연 현상
@@ -192,7 +190,7 @@
 
   [w3-friction.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/fdb97c59-8436-495a-a123-5a7749519d8a)
 
-3. Particles
+#### 3. Particles
 
 - 마우스를 드래그할 때 어지고 바닥에서 튕기는 시뮬레이션 코드
   - 중력과 마찰력의 영향을 받아 공들이 자연스럽게 떨어지고 바닥에서 튕김
@@ -212,7 +210,7 @@
 
   [w3-particle.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d77aed23-4c37-477a-9121-0d50b542ae68)
 
-4. Collision Detection
+#### 4. Collision Detection
 
 - 마우스 드래그로 생성한 공들이 중력, 마찰력의 영향을 받으며 움직이고 충돌하는 시뮬레이션 코드
   - 마우스 드래그 이벤트로 공 생성, 버튼 클릭 이벤트로 공 제거 기능 구현
