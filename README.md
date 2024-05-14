@@ -9,6 +9,7 @@
 #### 1. OOP
 <details>
 <summary>객체 지향 프로그래밍(OOP) 개념 학습</summary>
+  
   - 클래스(Class)를 정의하고 객체(Object)를 생성하는 방법
   - 생성자(Constructor)를 사용하여 객체 초기화
   - 객체의 속성(Properties)과 메서드(Methods) 정의
@@ -33,8 +34,8 @@
 
 #### 2. 2D Transformation
 <details>
-  
 <summary>2D 변환 매트릭스 활용</summary>
+
   - translate() 좌표계 이동
   - rotate() 좌표계 회전
   - scale() 좌표계 크기 조정
@@ -68,6 +69,7 @@
 #### 1. Bouncing Ball (Vector Addition)
 <details>
   <summary>Vector Addition</summary>
+  
 - 객체 지향 프로그래밍(OOP) 개념 학습
   - Ball 클래스를 정의하여 공의 속성과 동작을 캡슐화
   - 생성자(constructor)를 사용하여 Ball 객체 초기화
@@ -89,6 +91,7 @@
 
 <details>
   <summary>벡터(Vector) 연산 이해</summary>
+  
   - createVector() 벡터 생성
   - sub() 메서드를 사용하여 두 벡터의 차이 계산
   - mag() 메서드를 사용하여 벡터의 크기(magnitude) 계산
