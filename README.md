@@ -291,17 +291,118 @@
 
 ### Week 4
 
-#### 1. 물리 엔진
+- Matter.js을 통해 2D 및 3D 물리 시뮬레이션을 구현하는 방법에 대해 배움
+- 여러 가지 물리적 특성을 가진 객체들이 어떻게 상호작용하는지 실습
+- 기타 물리엔진
+  - Box2D (2D)
+  - Toxiclibs (2D+3D)
+  - Bullet (3D)
+  - Matter.js (2D)
+  - cannon.js (3D)
+
+#### 1. Bouncing Box with Matter.js
 
 <details>
 <summary>Note</summary>
 
-- Box2D (2D)
-- Toxiclibs (2D+3D)
-- Bullet (3D)
-- Matter.js (2D)
-- cannon.js (3D)
+- 개요
+  - Matter.js 라이브러리를 사용하여 기본적인 물리 시뮬레이션 환경을 구축
+  - 사각형 상자(box1)와 바닥(ground1)을 생성하고, 상자는 반발력과 마찰력을 가지고 움직임
+- 주요 개념
+  - `Matter.js` 라이브러리에서 필요한 모듈을 가져옴
+  - 물리 엔진 생성 및 초기화: `Engine.create()`로 엔진 생성, `engine` 객체를 생성해 물리 시뮬레이션을 관리
+  - 물체 생성: `Bodies.rectangle()`로 사각형 객체 생성
+  - 물체를 엔진에 추가: `World.add(engine.world, obj)`
+  - 물리적 특성 적용: restitution(반발력)과 friction(마찰력) 설정
+  - 정적 객체 생성: `isStatic: true` 옵션으로 움직이지 않는 바닥 생성
+  - 엔진 업데이트 및 렌더링: `Engine.update(engine)`와 `drawVertices()`를 통해 물체의 움직임과 그리기
 
 </details>
 
-\
+#### 2. Bouncing Shapes with Matter.js
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - `Bodies.rectangle`, `Bodies.circle`, `Bodies.polygon`을 사용하여 다양한 모양의 물체를 생성
+  - 두 개의 경사진 바닥(ground1, ground2)을 추가해 물체들이 서로 다른 각도로 충돌하게 함
+- 주요 개념
+  - 다양한 도형 생성: `Bodies.circle`과 `Bodies.polygon`을 사용하여 원과 다각형 생성
+  - 물체의 물리적 특성 적용: 모든 물체에 동일한 반발력과 마찰력을 적용하여 일관된 움직임을 보여줌
+
+</details>
+
+#### 3. Loop Boxes with Matter.js
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 상자들이 무작위 크기로 생성되어 중력에 의해 떨어짐
+- 주요 개념
+  - 동적 객체 생성 및 제거: `generateObject()` 물체를 동적으로 생성하고, 화면 밖으로 나간 물체를 제거하여 성능 유지
+  - 화면 경계 감지: `isOffScreen()` 화면 밖으로 나간 상자를 감지
+
+</details>
+
+#### 4. Plinko
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 핀과 공을 생성하여 Plinko 게임을 모방한 시뮬레이션
+  - 핀은 고정된 위치에 배치되고, 키 입력에 따라 새로운 공이 생성되어 화면 상단에서 떨어짐
+- 주요 개념
+  - 정적 핀과 동적 공의 상호작용: 핀은 고정되어 있고, 공은 충돌하며 떨어짐
+  - 키 입력에 따른 공 생성: `keyPressed()`로 키 입력 시 새로운 공 생성
+  - 복잡한 상호작용 시뮬레이션: 핀과 공의 충돌을 통해 복잡한 상호작용을 시뮬레이션
+
+</details>
+
+#### 5. Constraints
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 여러 개의 다각형(poly1A, poly1B, poly2, poly3)을 생성하고, 각각의 다각형에 제약(constraint)을 추가
+  - `World.add()`를 통해 엔진에 다각형과 제약을 추가
+- 주요 개념
+  - 제약 생성: 두 개의 물체 사이 또는 물체와 고정된 점 사이에 제약을 설정.
+  - 제약의 특성: stiffness(강성)와 damping(감쇠)를 설정하여 제약의 탄성과 저항 조절.
+  - 다각형과 제약의 시각화: `drawVertices()`와 `drawConstraint()`를 통해 물체와 제약을 그립니다.
+
+</details>
+
+#### 6. Constraints with Mouse
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 이전 코드에 마우스 제약(Mouse Constraint)을 추가하여 마우스로 물체를 조작할 수 있게 함
+  - `Mouse.create(canvas.elt)`를 사용해 마우스 입력을 받음
+  - `MouseConstraint.create(engine, mouseParams)`를 통해 마우스 제약을 생성하고 엔진에 추가
+- 주요 개념
+  - 마우스 제약: 마우스로 물체를 드래그하고 이동할 수 있도록 설정
+  - 고해상도 화면 지원: `pixelDensity()`를 사용하여 고해상도 화면에서 정확한 마우스 좌표를 얻음
+
+</details>
+
+#### 7. Catapult
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - Catapult를 만들어 물체를 던지는 시뮬레이션
+  - `Bodies.rectangle()`과 `Constraint.create()`를 사용해 Catpult와 그 제약을 설정
+  - `setupBalls()`로 2개의 공을 생성하고 엔진에 추가
+- 주요 개념
+  - Catapult 설정: Catpult와 그 제약을 설정하여 물체를 던지는 동작을 구현
+  - 공의 생성 및 물리적 특성 적용: 공을 생성하고 그 밀도(density)를 설정해 중력의 영향을 조절
+  - 전체 시뮬레이션: `Engine.update()`와 `drawVertices()`를 사용하여 물체를 시각적으로 표현
+
+</details>
