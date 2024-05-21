@@ -319,6 +319,8 @@
 
 </details>
 
+[w4-bouncing-box.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e2e4bd61-182c-4f21-95c0-087322133a1a)
+
 #### 2. Bouncing Shapes with Matter.js
 
 <details>
@@ -333,6 +335,9 @@
 
 </details>
 
+[w4-bouncing-shapes.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a883e711-11fc-41bc-b41e-f5e2b30252f9)
+
+
 #### 3. Loop Boxes with Matter.js
 
 <details>
@@ -345,6 +350,9 @@
   - 화면 경계 감지: `isOffScreen()` 화면 밖으로 나간 상자를 감지
 
 </details>
+
+[w4-loop-boxes.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/86838256-94d7-4992-b2bf-91fe505b6723)
+
 
 #### 4. Plinko
 
@@ -361,6 +369,9 @@
 
 </details>
 
+[w4-plinko.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/71760c6b-1847-4ffd-89b2-1389d7de3826)
+
+
 #### 5. Constraints
 
 <details>
@@ -375,6 +386,9 @@
   - 다각형과 제약의 시각화: `drawVertices()`와 `drawConstraint()`를 통해 물체와 제약을 그립니다.
 
 </details>
+
+[w4-constraints.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/6771ba94-1e17-4831-aa61-0fee5cae9edf)
+
 
 #### 6. Constraints with Mouse
 
@@ -391,6 +405,9 @@
 
 </details>
 
+[w4-constraints-mouse.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/1610872a-9a62-4cfa-bb88-5af67f1acbde)
+
+
 #### 7. Catapult
 
 <details>
@@ -406,3 +423,6 @@
   - 전체 시뮬레이션: `Engine.update()`와 `drawVertices()`를 사용하여 물체를 시각적으로 표현
 
 </details>
+
+[w4-catapult.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/77d5a2b2-8c46-430b-90e3-aff96ac70de7)
+
