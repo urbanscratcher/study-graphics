@@ -6,7 +6,7 @@
 
 ### Week 1
 
-#### 1. OOP
+#### [1. OOP](./w1%20-%20oop/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -34,7 +34,7 @@
 
 [w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
 
-#### 2. 2D Transformation
+#### [2. 2D Transformation](./w1%20-%202D%20transformation/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -70,7 +70,7 @@
 
 ### Week 2
 
-#### 1. Bouncing Ball (Vector Addition)
+#### [1. Bouncing Ball (Vector Addition)](./w2%20-%20bouncing%20ball/sketch.js)
 
 <details>
   <summary>Note</summary>
@@ -93,7 +93,7 @@
 
 [w2-bouncing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34ff5b6e-bc38-4c6c-89f2-13dab70502d6)
 
-#### 2. Vector Operations
+#### [2. Vector Operations](./w2%20-%20vector%20operations/sketch.js)
 
 <details>
   <summary>Note</summary>
@@ -127,7 +127,7 @@
 
 [w2-vector.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/c24e8043-5bcc-4871-9294-e4db96bd5ebf)
 
-#### 3. Acceleration
+#### [3. Acceleration](./w2%20-%20acceleration/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -150,7 +150,7 @@
 
 [w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
 
-#### 4. Mouse Tracing
+#### [4. Mouse Tracing](./w2%20-%20mouse%20tracing/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -171,13 +171,13 @@
 
 [w2-tracing.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/54ff64f5-abae-4c56-96f3-17751bd90f5a)
 
-#### 5. Mouse Patterns
+#### [5. Mouse Patterns](./w2%20-%20mouse%20patterns/sketch.js)
 
 [w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
 
 ### Week 3
 
-#### 1. Forces
+#### [1. Forces](./w3%20-%20forces/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -203,7 +203,7 @@
 
 [w3-forces.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/07578e4e-9086-4a7f-bec4-df46b0840d59)
 
-#### 2. Gravity and Friction
+#### [2. Gravity and Friction](./w3%20-%20gravity%20and%20friction/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -230,7 +230,7 @@
 
 [w3-friction.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/fdb97c59-8436-495a-a123-5a7749519d8a)
 
-#### 3. Particles
+#### [3. Particles](./w3%20-%20particles/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -255,7 +255,7 @@
 
 [w3-particle.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d77aed23-4c37-477a-9121-0d50b542ae68)
 
-#### 4. Collision Detection
+#### [4. Collision Detection](./w3%20-%20collision%20detection/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -300,7 +300,7 @@
   - Matter.js (2D)
   - cannon.js (3D)
 
-#### 1. Bouncing Box with Matter.js
+#### [1. Bouncing Box with Matter.js](./w4%20-%20bouncing%20box/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -321,7 +321,7 @@
 
 [w4-bouncing-box.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e2e4bd61-182c-4f21-95c0-087322133a1a)
 
-#### 2. Bouncing Shapes with Matter.js
+#### [2. Bouncing Shapes with Matter.js](./w4%20-%20bouncing%20shapes/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -337,7 +337,7 @@
 
 [w4-bouncing-shapes.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a883e711-11fc-41bc-b41e-f5e2b30252f9)
 
-#### 3. Loop Boxes with Matter.js
+#### [3. Loop Boxes with Matter.js](./w4%20-%20loop%20boxes/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -352,7 +352,7 @@
 
 [w4-loop-boxes.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/86838256-94d7-4992-b2bf-91fe505b6723)
 
-#### 4. Plinko
+#### [4. Plinko](./w4%20-%20plinko/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -369,7 +369,7 @@
 
 [w4-plinko.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/71760c6b-1847-4ffd-89b2-1389d7de3826)
 
-#### 5. Constraints
+#### [5. Constraints](./w4%20-%20constraints/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -386,7 +386,7 @@
 
 [w4-constraints.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/6771ba94-1e17-4831-aa61-0fee5cae9edf)
 
-#### 6. Constraints with Mouse
+#### [6. Constraints with Mouse](./w4%20-%20constraints%20w%20mouse/sketch.js)
 
 <details>
 <summary>Note</summary>
@@ -403,7 +403,7 @@
 
 [w4-constraints-mouse.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/1610872a-9a62-4cfa-bb88-5af67f1acbde)
 
-#### 7. Catapult
+#### [7. Catapult](./w4%20-%20catapult/sketch.js)
 
 <details>
 <summary>Note</summary>
