@@ -2,6 +2,34 @@
 
 - A personally practiced p5js code for my graphics programming course
 
+## Table Of Contents
+
+- [Graphics Programming](#graphics-programming)
+  - [Table Of Contents](#table-of-contents)
+  - [Weekly Logs](#weekly-logs)
+    - [Week 1](#week-1)
+      - [1. OOP](#1-oop)
+      - [2. 2D Transformation](#2-2d-transformation)
+    - [Week 2](#week-2)
+      - [1. Bouncing Ball (Vector Addition)](#1-bouncing-ball-vector-addition)
+      - [2. Vector Operations](#2-vector-operations)
+      - [3. Acceleration](#3-acceleration)
+      - [4. Mouse Tracing](#4-mouse-tracing)
+      - [5. Mouse Patterns](#5-mouse-patterns)
+    - [Week 3](#week-3)
+      - [1. Forces](#1-forces)
+      - [2. Gravity and Friction](#2-gravity-and-friction)
+      - [3. Particles](#3-particles)
+      - [4. Collision Detection](#4-collision-detection)
+    - [Week 4](#week-4)
+      - [1. Bouncing Box with Matter.js](#1-bouncing-box-with-matterjs)
+      - [2. Bouncing Shapes with Matter.js](#2-bouncing-shapes-with-matterjs)
+      - [3. Loop Boxes with Matter.js](#3-loop-boxes-with-matterjs)
+      - [4. Plinko](#4-plinko)
+      - [5. Constraints](#5-constraints)
+      - [6. Constraints with Mouse](#6-constraints-with-mouse)
+      - [7. Catapult](#7-catapult)
+
 ## Weekly Logs
 
 ### Week 1
