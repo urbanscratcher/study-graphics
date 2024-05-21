@@ -337,7 +337,6 @@
 
 [w4-bouncing-shapes.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a883e711-11fc-41bc-b41e-f5e2b30252f9)
 
-
 #### 3. Loop Boxes with Matter.js
 
 <details>
@@ -352,7 +351,6 @@
 </details>
 
 [w4-loop-boxes.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/86838256-94d7-4992-b2bf-91fe505b6723)
-
 
 #### 4. Plinko
 
@@ -371,7 +369,6 @@
 
 [w4-plinko.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/71760c6b-1847-4ffd-89b2-1389d7de3826)
 
-
 #### 5. Constraints
 
 <details>
@@ -381,14 +378,13 @@
   - 여러 개의 다각형(poly1A, poly1B, poly2, poly3)을 생성하고, 각각의 다각형에 제약(constraint)을 추가
   - `World.add()`를 통해 엔진에 다각형과 제약을 추가
 - 주요 개념
-  - 제약 생성: 두 개의 물체 사이 또는 물체와 고정된 점 사이에 제약을 설정.
-  - 제약의 특성: stiffness(강성)와 damping(감쇠)를 설정하여 제약의 탄성과 저항 조절.
-  - 다각형과 제약의 시각화: `drawVertices()`와 `drawConstraint()`를 통해 물체와 제약을 그립니다.
+  - 제약 생성: 두 개의 물체 사이 또는 물체와 고정된 점 사이에 제약을 설정
+  - 제약의 특성: stiffness(강성)와 damping(감쇠)를 설정하여 제약의 탄성과 저항 조절
+  - 다각형과 제약의 시각화: `drawVertices()`와 `drawConstraint()`를 통해 물체와 제약을 그림
 
 </details>
 
 [w4-constraints.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/6771ba94-1e17-4831-aa61-0fee5cae9edf)
-
 
 #### 6. Constraints with Mouse
 
@@ -407,7 +403,6 @@
 
 [w4-constraints-mouse.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/1610872a-9a62-4cfa-bb88-5af67f1acbde)
 
-
 #### 7. Catapult
 
 <details>
@@ -425,4 +420,3 @@
 </details>
 
 [w4-catapult.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/77d5a2b2-8c46-430b-90e3-aff96ac70de7)
-
