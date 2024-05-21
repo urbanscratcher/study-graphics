@@ -7,6 +7,7 @@
 ### Week 1
 
 #### 1. OOP
+
 <details>
 <summary>Note</summary>
   
@@ -34,6 +35,7 @@
 [w1-oop2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/2b8ffdcd-9d4b-48f0-aef8-fd5f2e6db8a6)
 
 #### 2. 2D Transformation
+
 <details>
 <summary>Note</summary>
   
@@ -69,6 +71,7 @@
 ### Week 2
 
 #### 1. Bouncing Ball (Vector Addition)
+
 <details>
   <summary>Note</summary>
   
@@ -140,14 +143,15 @@
   - maxVelocity 변수를 사용하여 최대 속도 값 설정
 - 화면 경계 처리
 
-  - edges() 메서드에서 공이 화면 경계를 벗어날 때 반대편 경계로 이동하도록 처리
-  - 이를 통해 공이 화면을 계속 순환하는 효과를 구현
+- edges() 메서드에서 공이 화면 경계를 벗어날 때 반대편 경계로 이동하도록 처리
+- 이를 통해 공이 화면을 계속 순환하는 효과를 구현
 
 </details>
 
 [w2-acc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/b1998dbf-42aa-4263-85a2-374f0f3af8c1)
 
 #### 4. Mouse Tracing
+
 <details>
 <summary>Note</summary>
   
@@ -169,11 +173,12 @@
 
 #### 5. Mouse Patterns
 
- [w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
+[w2-practice.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/34fe624d-d17f-482b-bfeb-1c976d0879b8)
 
 ### Week 3
 
 #### 1. Forces
+
 <details>
 <summary>Note</summary>
   
@@ -189,10 +194,10 @@
     - 질량을 1로 가정하면, 가속도 벡터는 힘 벡터와 같아짐
 - Ball 클래스를 정의하여 공의 움직임을 시뮬레이션함
 
-  - 마우스 위치와 공의 위치 사이의 방향 벡터를 계산하여 힘을 적용함
-  - 공은 힘의 영향을 받아 움직이며, 경계면에 부딪히면 반사됨
-  - `move()` 메소드: 속도에 가속도를 더하고, 위치에 속도를 더하여 공의 움직임을 업데이트함
-  - `bounce()` 메소드: 공이 경계면에 부딪힐 때 속도의 방향을 반전시켜 반사 효과를 구현함
+- 마우스 위치와 공의 위치 사이의 방향 벡터를 계산하여 힘을 적용함
+- 공은 힘의 영향을 받아 움직이며, 경계면에 부딪히면 반사됨
+- `move()` 메소드: 속도에 가속도를 더하고, 위치에 속도를 더하여 공의 움직임을 업데이트함
+- `bounce()` 메소드: 공이 경계면에 부딪힐 때 속도의 방향을 반전시켜 반사 효과를 구현함
 
 </details>
 
@@ -216,16 +221,17 @@
   - `bounce()` 메소드에서 공이 경계면에 부딪힐 때 속도의 방향을 반전시켜 반사 효과를 구현
 - `draw()` 함수에서 중력과 마찰력을 적용하는 과정을 설명함
 
-  - 중력: (0, 0.1)의 값을 가진 벡터를 생성하여 `applyForce()`로 적용
-  - 마찰력: 속도 벡터의 반대 방향 벡터를 계산하고, 정규화한 후 마찰 계수를 곱하여 `applyForce()`로 적용
-  - 중력과 마찰력을 시뮬레이션하여 공의 움직임을 구현하는 예제임
-  - 이를 바탕으로 다양한 물리 현상을 시뮬레이션할 수 있음
+- 중력: (0, 0.1)의 값을 가진 벡터를 생성하여 `applyForce()`로 적용
+- 마찰력: 속도 벡터의 반대 방향 벡터를 계산하고, 정규화한 후 마찰 계수를 곱하여 `applyForce()`로 적용
+- 중력과 마찰력을 시뮬레이션하여 공의 움직임을 구현하는 예제임
+- 이를 바탕으로 다양한 물리 현상을 시뮬레이션할 수 있음
 
 </details>
 
 [w3-friction.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/fdb97c59-8436-495a-a123-5a7749519d8a)
 
 #### 3. Particles
+
 <details>
 <summary>Note</summary>
   
@@ -242,14 +248,15 @@
   - `draw()`, `changeBgColor()`, `buttonPressed()` 메소드로 구성
 - 사용자 인터랙션
 
-  - `mouseDragged()`: 마우스 드래그로 공 생성
-  - `mousePressed()`: 버튼 클릭으로 화면 초기화
+- `mouseDragged()`: 마우스 드래그로 공 생성
+- `mousePressed()`: 버튼 클릭으로 화면 초기화
 
 </details>
 
 [w3-particle.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d77aed23-4c37-477a-9121-0d50b542ae68)
 
 #### 4. Collision Detection
+
 <details>
 <summary>Note</summary>
   
@@ -270,14 +277,31 @@
   - 거리 계산, 경계 비교 등을 통해 실제 충돌 여부 판별
 - 주요 클래스와 함수
 
-  - `Box` 클래스: 사각형 박스 객체의 속성과 그리기 기능 캡슐화
-  - `Ball` 클래스: 공 객체의 속성, 움직임, 충돌 검사, 물리 효과 캡슐화
-  - `Button` 클래스: 버튼 객체의 속성, 그리기, 상호작용 기능 캡슐화
-  - `setup()` 함수: 캔버스 설정, 공 배열, 버튼, 박스 객체 초기화
-  - `draw()` 함수: 공의 물리 효과 적용, 충돌 검사, 그리기 수행
-  - `mouseDragged()` 함수: 마우스 드래그 시 공 생성하여 배열에 추가
-  - `mousePressed()` 함수: 버튼 클릭 시 공 배열 초기화
+- `Box` 클래스: 사각형 박스 객체의 속성과 그리기 기능 캡슐화
+- `Ball` 클래스: 공 객체의 속성, 움직임, 충돌 검사, 물리 효과 캡슐화
+- `Button` 클래스: 버튼 객체의 속성, 그리기, 상호작용 기능 캡슐화
+- `setup()` 함수: 캔버스 설정, 공 배열, 버튼, 박스 객체 초기화
+- `draw()` 함수: 공의 물리 효과 적용, 충돌 검사, 그리기 수행
+- `mouseDragged()` 함수: 마우스 드래그 시 공 생성하여 배열에 추가
+- `mousePressed()` 함수: 버튼 클릭 시 공 배열 초기화
 
 </details>
 
 [w3-particle2.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e3e6ed01-f69b-4647-943d-45ff16eca4dd)
+
+### Week 4
+
+#### 1. 물리 엔진
+
+<details>
+<summary>Note</summary>
+
+- Box2D (2D)
+- Toxiclibs (2D+3D)
+- Bullet (3D)
+- Matter.js (2D)
+- cannon.js (3D)
+
+</details>
+
+\
