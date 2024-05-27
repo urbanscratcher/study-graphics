@@ -476,6 +476,8 @@
 
 </details>
 
+[w5-propeller.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/ba17fef3-2625-47df-97cd-ba991ec333eb)
+
 #### [2. Dominoes](./w5%20-%20dominoes/sketch.js)
 
 <details>
@@ -488,6 +490,8 @@
   - `Composites.stack` 을 사용해 도미노를 배치하고, `Bodies.rectangle()` 로 도미노 생성
 
 </details>
+
+[w5-dominoes.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a80ea3b8-0430-4cd4-a917-a0c71a12dc95)
 
 ### Week 6
 
@@ -506,6 +510,8 @@
 
 </details>
 
+[w6-randomness.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/26d92f2d-cfe2-4e35-9d8e-becaca9f3838)
+
 #### [2. Tickle Walker](./w6%20-%20tickle%20walker/sketch.js)
 
 <details>
@@ -514,13 +520,14 @@
 - 개요
   - 마우스 커서와 상호작용하는 원 객체를 시뮬레이션
   - 마우스가 원 안에 들어갈 때 원의 위치가 무작위로 변경
-  - `Tickler` 클래스 생성 및 인스턴스화
 - 주요 개념
   - `Tickler` 클래스를 사용하여 원의 위치와 크기를 설정
   - `checkMouseInCircle()` 마우스와 원의 충돌을 감지
   - `tickled()` 원의 위치를 무작위로 변경
 
 </details>
+
+[w6-tickle-walker.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/944af39d-add6-4534-a5a1-9e2330790c91)
 
 #### [3. Perlin Noise](./w6%20-%20perlin%20noise/sketch.js)
 
@@ -535,6 +542,8 @@
   - `time` 변수를 증가시켜 노이즈 함수의 입력값을 변경하여 애니메이션 효과 구현
 
 </details>
+
+[w6-perlin-noise.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a2bd3848-48a3-4bab-8f47-5f111bd589fe)
 
 #### [4. Random Font](./w6%20-%20random%20font/sketch.js)
 
@@ -551,6 +560,8 @@
 
 </details>
 
+[w6-random-font.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a7acbdda-acc3-4d51-ad39-43b85378bf6a)
+
 #### [5. Noisy Font](./w6%20-%20noisy%20font/sketch.js)
 
 <details>
@@ -564,3 +575,6 @@
   - `frameCount` 를 이용해 시간에 따라 점의 위치를 애니메이션
 
 </details>
+
+[w6-noisy-font.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/6221d581-8e55-4364-9dc0-2f5419e38d47)
+
