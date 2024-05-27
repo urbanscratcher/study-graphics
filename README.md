@@ -30,7 +30,14 @@
       - [6. Constraints with Mouse](#6-constraints-with-mouse)
       - [7. Catapult](#7-catapult)
     - [Week 5](#week-5)
-      - [\[1. \]](#1-)
+      - [1. Propeller](#1-propeller)
+      - [2. Dominoes](#2-dominoes)
+    - [Week 6](#week-6)
+      - [1. Randomness](#1-randomness)
+      - [2. Tickle Walker](#2-tickle-walker)
+      - [3. Perlin Noise](#3-perlin-noise)
+      - [4. Random Font](#4-random-font)
+      - [5. Noisy Font](#5-noisy-font)
 
 ## Weekly Logs
 
@@ -453,14 +460,107 @@
 
 ### Week 5
 
-#### [1. ]
+#### [1. Propeller](./w5%20-%20propeller/sketch.js)
 
 <details>
 <summary>Note</summary>
 
 - 개요
-  - s
+  - Matter.js를 사용해 회전하는 프로펠러를 시뮬레이션
+  - `Body.setAngle()`과 `Body.setAngularVelocity()`를 사용해 프로펠러의 회전 구현
+  - `generateObject()`로 무작위 객체 생성 및 추가
 - 주요 개념
-  - d
+  - 프로펠러의 각도와 각속도를 설정하여 회전 동작 구현
+  - 무작위 객체를 생성하고 물리적 특성을 적용하여 중력 및 충돌 시뮬레이션
+  - `Engine.update()`와 `drawVertices()`를 사용하여 물체를 시각적으로 표현
+
+</details>
+
+#### [2. Dominoes](./w5%20-%20dominoes/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - Matter.js를 사용해 도미노 효과를 시뮬레이션
+  - 도미노가 작은 경사면 위에서 쓰러지는 물리 효과 구현
+- 주요 개념
+  - `Composites.stack` 을 사용해 도미노를 배치하고, `Bodies.rectangle()` 로 도미노 생성
+
+</details>
+
+### Week 6
+
+#### [1. Randomness](./w6%20-%20randomness/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 화면에 무작위 위치와 크기로 원을 그리는 시뮬레이션
+  - `randomSeed()` 랜덤 함수의 시작 지점을 고정
+  - `random()` 무작위 위치, 색상 및 크기의 원 생성
+- 주요 개념
+  - `random()` 무작위로 x와 y 좌표를 생성, 무작위 크기의 원 생성
+  - `fill()` 무작위 빨간색 및 투명도 설정
+
+</details>
+
+#### [2. Tickle Walker](./w6%20-%20tickle%20walker/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 마우스 커서와 상호작용하는 원 객체를 시뮬레이션
+  - 마우스가 원 안에 들어갈 때 원의 위치가 무작위로 변경
+  - `Tickler` 클래스 생성 및 인스턴스화
+- 주요 개념
+  - `Tickler` 클래스를 사용하여 원의 위치와 크기를 설정
+  - `checkMouseInCircle()` 마우스와 원의 충돌을 감지
+  - `tickled()` 원의 위치를 무작위로 변경
+
+</details>
+
+#### [3. Perlin Noise](./w6%20-%20perlin%20noise/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - Perlin 노이즈 기반의 위치 및 회전을 적용한 사각형 애니메이션
+- 주요 개념
+  - `noise()` 매 프레임마다 사각형의 위치와 회전을 부드럽게 변경
+  - `map()` 를 사용하여 노이즈 값을 화면 좌표와 회전 각도로 변환
+  - `time` 변수를 증가시켜 노이즈 함수의 입력값을 변경하여 애니메이션 효과 구현
+
+</details>
+
+#### [4. Random Font](./w6%20-%20random%20font/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 텍스트를 점으로 변환하고, 마우스 움직임에 따라 점들의 위치를 무작위로 변경하는 애니메이션
+- 주요 개념
+  - `preload()`에서 폰트를 로드하고 `setup()`에서 텍스트를 점으로 변환
+    - `loadFont()` 커스텀 폰트 로드
+    - `textToPoints()` 텍스트를 점의 배열로 변환
+  - `mouseMoved()` 마우스가 움직일 때마다 점의 위치를 업데이트하고 애니메이션을 다시 루프
+
+</details>
+
+#### [5. Noisy Font](./w6%20-%20noisy%20font/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 텍스트를 점으로 변환하고, Perlin 노이즈를 이용해 점들의 위치를 애니메이션
+  - 마우스 x 위치에 따라 점의 이동 범위를, 마우스 y 위치에 따라 점의 색상 투명도를 변경
+- 주요 개념
+  - `noise()` 와 `map()` 를 이용해 점의 위치를 Perlin 노이즈 기반으로 변경
+  - `frameCount` 를 이용해 시간에 따라 점의 위치를 애니메이션
 
 </details>
