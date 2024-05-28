@@ -602,8 +602,12 @@
 
 </details>
 
-##### Random Grid
-![w7-randomGrid](https://github.com/urbanscratcher/study-graphics/assets/17016494/72b38a0e-e2cd-46ce-ab08-79a5fbfcb2e3)
+<div>
+  <h5>Random Grid</h5>
+  <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/72b38a0e-e2cd-46ce-ab08-79a5fbfcb2e3" width="300" />
+  <h5>Noise Grid</h5>
+  <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/cfad3af5-c83f-4e53-81e1-224de0358c2a" width="300" />
+</div>
 
 ##### Noise Grid
 ![w7-noiseGrid](https://github.com/urbanscratcher/study-graphics/assets/17016494/cfad3af5-c83f-4e53-81e1-224de0358c2a)
