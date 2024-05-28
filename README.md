@@ -38,6 +38,8 @@
       - [3. Perlin Noise](#3-perlin-noise)
       - [4. Random Font](#4-random-font)
       - [5. Noisy Font](#5-noisy-font)
+    - [Week 7](#week-7)
+      - [1. 2D Noise](#1-2d-noise)
 
 ## Weekly Logs
 
@@ -578,3 +580,24 @@
 
 [w6-noisy-font.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/6221d581-8e55-4364-9dc0-2f5419e38d47)
 
+### Week 7
+
+#### [1. 2D Noise](./w7%20-%202d%20noise/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 2D 노이즈를 이용하여 랜덤하게 변하는 값을 생성하고 이를 시각화하는 방법을 학습
+  - `randomGrid()` 와 `noiseGrid()` 를 통해 각각의 시각적 차이를 확인
+  - `plotNoiseFn()` 로 1D 노이즈 값을 그래프로 표현
+- 주요 개념
+  - 2D 노이즈
+    - 2D 노이즈 값이 이웃한 값들과 유사하게 나타나도록 하여 유기적인 패턴을 생성
+    - 2D 노이즈는 구름, 연기, 안개, 불과 같은 자연 현상을 시뮬레이션하는 데 사용
+  - 1D 노이즈는 X축에서의 값의 연속성을 가지며, 2D 노이즈는 X축과 Y축에서 모두 연속성을 가짐
+  - `randomGrid()` 는 인접한 값들 간의 연속성이 없지만, `noiseGrid()` 는 인접한 값들이 유사함
+  - `noiseDetail()` 로 노이즈의 세부 사항 조정
+  - `noLoop()` 한 번만 그리도록 설정
+
+</details>
