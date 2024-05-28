@@ -40,7 +40,6 @@
       - [5. Noisy Font](#5-noisy-font)
     - [Week 7](#week-7)
       - [1. 2D Noise](#1-2d-noise)
-        - [Plot Noise Function](#plot-noise-function)
 
 ## Weekly Logs
 
@@ -603,37 +602,18 @@
 
 </details>
 
-<div style="display: flex; flex-direction: row; gap: 0.5rem;">
-  <div>
-    <h5>Random Grid</h5>
-    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/72b38a0e-e2cd-46ce-ab08-79a5fbfcb2e3" width="200" />
-  </div>
-  <div>
-    <h5>Noise Grid</h5>
-    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/cfad3af5-c83f-4e53-81e1-224de0358c2a" width="200" />
-    <br/>
-    <small>make the steps smaller to get more smooth noise<br/>
-    by dividing x and y by 10</small>
-    <br/>
-    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/f3a4d149-f100-4484-8898-f51b5489e3b8" width="200" />
-    <br/>
-    <small>by dividing x and y by 100</small>
-    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/03fb7980-920a-4945-b5b6-bf234ef62d03" width="200" />
-  </div>
-</div>
+| Detail                  |                                                           Random Grid                                                           |                                                           Noise Grid                                                            |
+| ----------------------- | :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+|                         | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/72b38a0e-e2cd-46ce-ab08-79a5fbfcb2e3" width="200" /> | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/cfad3af5-c83f-4e53-81e1-224de0358c2a" width="200" /> |
+| dividing x and y by 10  |                                                                                                                                 | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/f3a4d149-f100-4484-8898-f51b5489e3b8" width="200" /> |
+| dividing x and y by 100 |                                                                                                                                 | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/03fb7980-920a-4945-b5b6-bf234ef62d03" width="200" /> |
 
-##### Plot Noise Function
+<h5>Plot Noise Function</h5>
 
-- The shape of noise function depends on how many octaves you set
-  ![noise_fn](https://github.com/urbanscratcher/study-graphics/assets/17016494/7f31b4a5-67f9-40b3-a8fd-69ff97ce08c3)
+<p>The shape of noise function depends on how many octaves you set</p>
 
-<div style="margin-left: 2rem; display: flex; flex-direction: row; gap: 0.5rem;">
-  <div>
-    <h6>With default detail</h6>
-    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/15ca20d5-1032-48b5-996d-0e438e09c470" width="300" />
-  </div>
-  <div>
-    <h6>With less detail</h6>
-    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/633e39b7-7eaf-4059-af38-d74a1858668a" width="300" />
-  </div>
-</div>
+![noise_fn](https://github.com/urbanscratcher/study-graphics/assets/17016494/7f31b4a5-67f9-40b3-a8fd-69ff97ce08c3)
+
+|                                                         default detail                                                          |                                                           less detail                                                           |
+| :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/15ca20d5-1032-48b5-996d-0e438e09c470" width="300" /> | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/633e39b7-7eaf-4059-af38-d74a1858668a" width="300" /> |
