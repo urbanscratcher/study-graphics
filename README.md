@@ -601,3 +601,26 @@
   - `noLoop()` 한 번만 그리도록 설정
 
 </details>
+
+##### Random Grid
+![w7-randomGrid](https://github.com/urbanscratcher/study-graphics/assets/17016494/72b38a0e-e2cd-46ce-ab08-79a5fbfcb2e3)
+
+##### Noise Grid
+![w7-noiseGrid](https://github.com/urbanscratcher/study-graphics/assets/17016494/cfad3af5-c83f-4e53-81e1-224de0358c2a)
+
+- make the steps smaller to get more detailed noise by dividing x and y
+  - by 10
+    ![w7-noiseGrid_10](https://github.com/urbanscratcher/study-graphics/assets/17016494/f3a4d149-f100-4484-8898-f51b5489e3b8)
+  - by 100
+    ![w7-noiseGrid_100](https://github.com/urbanscratcher/study-graphics/assets/17016494/03fb7980-920a-4945-b5b6-bf234ef62d03)
+
+##### Plot Noise Function
+- The shape of noise function depends on how many octaves you set
+  ![noise_fn](https://github.com/urbanscratcher/study-graphics/assets/17016494/7f31b4a5-67f9-40b3-a8fd-69ff97ce08c3)
+
+- with default detail
+  ![plot_noise_1d](https://github.com/urbanscratcher/study-graphics/assets/17016494/15ca20d5-1032-48b5-996d-0e438e09c470)
+
+- With less detail
+  ![plot_noise_1d_less_detail](https://github.com/urbanscratcher/study-graphics/assets/17016494/633e39b7-7eaf-4059-af38-d74a1858668a)
+
