@@ -478,6 +478,8 @@
 
 </details>
 
+[w5-propeller.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/ba17fef3-2625-47df-97cd-ba991ec333eb)
+
 #### [2. Dominoes](./w5%20-%20dominoes/sketch.js)
 
 <details>
@@ -490,6 +492,8 @@
   - `Composites.stack` 을 사용해 도미노를 배치하고, `Bodies.rectangle()` 로 도미노 생성
 
 </details>
+
+[w5-dominoes.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a80ea3b8-0430-4cd4-a917-a0c71a12dc95)
 
 ### Week 6
 
@@ -508,6 +512,8 @@
 
 </details>
 
+[w6-randomness.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/26d92f2d-cfe2-4e35-9d8e-becaca9f3838)
+
 #### [2. Tickle Walker](./w6%20-%20tickle%20walker/sketch.js)
 
 <details>
@@ -516,13 +522,14 @@
 - 개요
   - 마우스 커서와 상호작용하는 원 객체를 시뮬레이션
   - 마우스가 원 안에 들어갈 때 원의 위치가 무작위로 변경
-  - `Tickler` 클래스 생성 및 인스턴스화
 - 주요 개념
   - `Tickler` 클래스를 사용하여 원의 위치와 크기를 설정
   - `checkMouseInCircle()` 마우스와 원의 충돌을 감지
   - `tickled()` 원의 위치를 무작위로 변경
 
 </details>
+
+[w6-tickle-walker.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/944af39d-add6-4534-a5a1-9e2330790c91)
 
 #### [3. Perlin Noise](./w6%20-%20perlin%20noise/sketch.js)
 
@@ -537,6 +544,8 @@
   - `time` 변수를 증가시켜 노이즈 함수의 입력값을 변경하여 애니메이션 효과 구현
 
 </details>
+
+[w6-perlin-noise.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a2bd3848-48a3-4bab-8f47-5f111bd589fe)
 
 #### [4. Random Font](./w6%20-%20random%20font/sketch.js)
 
@@ -553,6 +562,8 @@
 
 </details>
 
+[w6-random-font.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/a7acbdda-acc3-4d51-ad39-43b85378bf6a)
+
 #### [5. Noisy Font](./w6%20-%20noisy%20font/sketch.js)
 
 <details>
@@ -567,6 +578,8 @@
 
 </details>
 
+[w6-noisy-font.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/6221d581-8e55-4364-9dc0-2f5419e38d47)
+
 ### Week 7
 
 #### [1. 2D Noise](./w7%20-%202d%20noise/sketch.js)
@@ -580,7 +593,7 @@
   - `plotNoiseFn()` 로 1D 노이즈 값을 그래프로 표현
 - 주요 개념
   - 2D 노이즈
-    - 2D 노이즈 값이 이웃한 값들과 유사하게 나타나도록 하여 유기적인 패턴을 생성
+    - 2D 노이즈 값이 이웃한 값들과 유사하게 나타나도록 하여 유기적인 패턴을 생성함
     - 2D 노이즈는 구름, 연기, 안개, 불과 같은 자연 현상을 시뮬레이션하는 데 사용
   - 1D 노이즈는 X축에서의 값의 연속성을 가지며, 2D 노이즈는 X축과 Y축에서 모두 연속성을 가짐
   - `randomGrid()` 는 인접한 값들 간의 연속성이 없지만, `noiseGrid()` 는 인접한 값들이 유사함
@@ -588,3 +601,19 @@
   - `noLoop()` 한 번만 그리도록 설정
 
 </details>
+
+| Detail                  |                                                           Random Grid                                                           |                                                           Noise Grid                                                            |
+| ----------------------- | :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+|                         | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/72b38a0e-e2cd-46ce-ab08-79a5fbfcb2e3" width="200" /> | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/cfad3af5-c83f-4e53-81e1-224de0358c2a" width="200" /> |
+| dividing x and y by 10  |                                                                                                                                 | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/f3a4d149-f100-4484-8898-f51b5489e3b8" width="200" /> |
+| dividing x and y by 100 |                                                                                                                                 | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/03fb7980-920a-4945-b5b6-bf234ef62d03" width="200" /> |
+
+<h5>Plot Noise Function</h5>
+
+<p>The shape of noise function depends on how many octaves you set</p>
+
+<img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/7f31b4a5-67f9-40b3-a8fd-69ff97ce08c3" width="200" />
+
+|                                                         default detail                                                          |                                                           less detail                                                           |
+| :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/15ca20d5-1032-48b5-996d-0e438e09c470" width="300" /> | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/633e39b7-7eaf-4059-af38-d74a1858668a" width="300" /> |
