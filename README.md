@@ -612,7 +612,7 @@
 
 <p>The shape of noise function depends on how many octaves you set</p>
 
-![noise_fn](https://github.com/urbanscratcher/study-graphics/assets/17016494/7f31b4a5-67f9-40b3-a8fd-69ff97ce08c3)
+<img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/7f31b4a5-67f9-40b3-a8fd-69ff97ce08c3" width="200" />
 
 |                                                         default detail                                                          |                                                           less detail                                                           |
 | :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
