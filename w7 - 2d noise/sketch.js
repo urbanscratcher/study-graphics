@@ -35,6 +35,7 @@ function randomGrid() {
     }
   }
 }
+
 function noiseGrid() {
   for (let x = 0; x < width; x++) {
     for (let y = 0; y < height; y++) {
