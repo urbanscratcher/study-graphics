@@ -40,6 +40,7 @@
       - [5. Noisy Font](#5-noisy-font)
     - [Week 7](#week-7)
       - [1. 2D Noise](#1-2d-noise)
+        - [Plot Noise Function](#plot-noise-function)
 
 ## Weekly Logs
 
@@ -602,7 +603,7 @@
 
 </details>
 
-<div style="display:flex">
+<div style="display: flex; flex-direction: row; gap: 0.5rem;">
   <div>
     <h5>Random Grid</h5>
     <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/72b38a0e-e2cd-46ce-ab08-79a5fbfcb2e3" width="200" />
@@ -610,25 +611,29 @@
   <div>
     <h5>Noise Grid</h5>
     <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/cfad3af5-c83f-4e53-81e1-224de0358c2a" width="200" />
+    <br/>
+    <small>make the steps smaller to get more smooth noise<br/>
+    by dividing x and y by 10</small>
+    <br/>
+    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/f3a4d149-f100-4484-8898-f51b5489e3b8" width="200" />
+    <br/>
+    <small>by dividing x and y by 100</small>
+    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/03fb7980-920a-4945-b5b6-bf234ef62d03" width="200" />
   </div>
 </div>
 
-##### Noise Grid
-![w7-noiseGrid](https://github.com/urbanscratcher/study-graphics/assets/17016494/cfad3af5-c83f-4e53-81e1-224de0358c2a)
-
-- make the steps smaller to get more detailed noise by dividing x and y
-  - by 10
-    ![w7-noiseGrid_10](https://github.com/urbanscratcher/study-graphics/assets/17016494/f3a4d149-f100-4484-8898-f51b5489e3b8)
-  - by 100
-    ![w7-noiseGrid_100](https://github.com/urbanscratcher/study-graphics/assets/17016494/03fb7980-920a-4945-b5b6-bf234ef62d03)
-
 ##### Plot Noise Function
+
 - The shape of noise function depends on how many octaves you set
   ![noise_fn](https://github.com/urbanscratcher/study-graphics/assets/17016494/7f31b4a5-67f9-40b3-a8fd-69ff97ce08c3)
 
-- with default detail
-  ![plot_noise_1d](https://github.com/urbanscratcher/study-graphics/assets/17016494/15ca20d5-1032-48b5-996d-0e438e09c470)
-
-- With less detail
-  ![plot_noise_1d_less_detail](https://github.com/urbanscratcher/study-graphics/assets/17016494/633e39b7-7eaf-4059-af38-d74a1858668a)
-
+<div style="margin-left: 2rem; display: flex; flex-direction: row; gap: 0.5rem;">
+  <div>
+    <h6>With default detail</h6>
+    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/15ca20d5-1032-48b5-996d-0e438e09c470" width="300" />
+  </div>
+  <div>
+    <h6>With less detail</h6>
+    <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/633e39b7-7eaf-4059-af38-d74a1858668a" width="300" />
+  </div>
+</div>
