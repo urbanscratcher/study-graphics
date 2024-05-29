@@ -41,6 +41,12 @@
     - [Week 7](#week-7)
       - [1. 2D Noise](#1-2d-noise)
       - [2. 3D Noise](#2-3d-noise)
+    - [Week 8](#week-8)
+      - [1. Trigonometry](#1-trigonometry)
+      - [2. Maurer Rose](#2-maurer-rose)
+      - [3. Oscillation](#3-oscillation)
+      - [4. Saskia](#4-saskia)
+      - [5. Additive Synthesis](#5-additive-synthesis)
 
 ## Weekly Logs
 
@@ -600,7 +606,6 @@
   - `randomGrid()` 는 인접한 값들 간의 연속성이 없지만, `noiseGrid()` 는 인접한 값들이 유사함
   - `noiseDetail()` 로 노이즈의 세부 사항 조정
   - `noLoop()` 한 번만 그리도록 설정
- 
 
 | Detail                  |                                                           Random Grid                                                           |                                                           Noise Grid                                                            |
 | ----------------------- | :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
@@ -619,7 +624,6 @@
 | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/15ca20d5-1032-48b5-996d-0e438e09c470" width="300" /> | <img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/633e39b7-7eaf-4059-af38-d74a1858668a" width="300" /> |
 
 </details>
-
 
 #### [2. 3D Noise](./w7%20-%203d%20noise/sketch.js)
 
@@ -643,3 +647,94 @@
 </details>
 
 [w7-3d-noise.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/7dd34266-5783-47f4-aee1-31c4ac420aaf)
+
+### Week 8
+
+#### [1. Trigonometry](./w8%20-%20trigonometry/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 데카르트 좌표와 극좌표를 이해하고, 아르키메데스 나선(각 프레임마다 중심에서 반지름이 점점 커지는 나선) 그리기
+- 주요 개념
+  - 데카르트 좌표와 화면 좌표
+    - 데카르트 좌표: x, y 축 사용, y 축은 위쪽이 양수
+    - 화면 좌표: x, y 축 사용, y 축은 아래쪽이 양수
+    - 현재 두 좌표계의 차이는 중요하지 않음
+  - 극좌표
+    - 위치를 x와 y 대신, 원점에서의 거리(r)와 각도(θ)로 표현
+    - r은 반지름, θ는 각도
+    - 각도는 일반적으로 도(degree)나 라디안(radian)으로 표현, 2π 라디안은 360도
+  - 극좌표의 필요성
+    - 방향과 중심점으로부터의 거리가 중요한 경우에 적합
+    - 예: 아르키메데스 나선(Archimedean spiral) 및 천체 운동(행성의 태양 주위 공전)을 극좌표로 더 쉽게 표현 가능
+  - 극좌표를 데카르트 좌표로 변환
+    - P5.js에서는 데카르트 좌표를 사용해야 하므로 극좌표를 변환 필요
+    - y 좌표: \( y = \sin(\theta) \times r \)
+    - x 좌표: \( x = \cos(\theta) \times r \)
+- 코드
+  - `radian(theta)` 도(degree)를 라디안(radian)으로 변환
+  - `angleMode(DEGREE)` 극좌표를 데카르트 좌표로 변환
+  - 각도(theta)를 프레임 수에 따라 증가시켜 원 형태의 주기적인(periodic) 패턴을 그림
+  - 반지름(radius)을 프레임 수에 따라 증가시켜 중앙에서 가장자리까지 나선 형태의 원을 그림
+
+</details>
+
+#### [2. Maurer Rose](./w8%20-%20maurer%20rose/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개념
+  - 극좌표계 기준 $r = \sin(n \theta)$ ($n$: 양의 정수)
+  - $n$ 이 홀수일 때는 $n$ 개의 잎, 짝수일 때는 $2n$ 개의 잎을 가짐
+  - 여기서 361개의 점을 서로 연결하면 다각형 곡선(polygonal curve, 여러 개의 직선 조각들이 연결돼 만들어진 곡선)이 그려지는데, 이를 Maurer rose라고 함
+    - ($\sin(nk)$, k) (k = 0, d, 2d, 3d, ..., 360d) ($d$: 양의 정수)
+    - 각도는 라디안(radian)이 아닌 도(degree)
+- 코딩
+  - Maurer 장미 그리기
+    - `for` 루프를 통해 `0`도에서 `360`도까지 각도를 증가시키며, 각 점의 극좌표를 계산
+    - `k = i * d`를 통해 각도를 조정하고, `r = 150 * sin(n*k)`로 반지름을 계산
+    - 계산된 반지름과 각도로 `x`, `y` 좌표를 구하여 점을 연결
+  - 꽃잎(petals) 그리기
+    - `r = 150 * sin(n*i)`로 반지름을 계산하고, 계산된 반지름과 각도로 `x`, `y` 좌표를 구하여 점을 연결
+  - 매개변수 `n`과 `d`의 역할
+    - `n` (자연수): 꽃잎 개수를 결정. 값이 클수록 더 많은 꽃잎이 생성
+    - `d` (자연수): 장미의 점들을 연결하는 방식에 영향을 미침. 패턴 복잡성을 조절하는 중요한 매개변수. 값이 클수록 더 복잡한 패턴이 생성됨.
+
+</details>
+
+#### [3. Oscillation](./w8%20-%20oscillation/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 주요 개념
+  - 사인과 코사인의 주기성
+    - 사인과 코사인은 주기적 함수로, 0도와 360도, 720도 등 동일한 위치에서 반복됨
+  - 사인 함수의 출력
+    - 사인 함수의 출력은 -1과 1 사이에서 매끄럽게 변동하는 곡선(진동)을 만듦
+    - 이 진동은 공의 튀는 움직임, 진자, 기타 줄의 진동과 같은 운동을 나타냄
+    - 사인 함수를 값 생성기로 사용할 수 있으며, 이 값은 -1에서 1 사이의 부드러운 비선형적인 값을 출력
+  - 파형의 특성
+    - 진폭 (Amplitude): 파형의 높이로, 중심에서 극단까지의 거리
+    - 주기 (Period): 한 사이클을 완료하는 데 걸리는 시간으로, 주기는 주파수와 연결됨
+    - 주파수 (Frequency): 단위 시간당 사이클의 수로, 헤르츠(Hz)로 측정됨
+  - 주파수와 위상
+    - 주파수는 단위 시간당 몇 개의 사이클이 있는지를 나타내며, 예시에서 주파수가 높은 파형은 더 많은 사이클을 가짐
+    - 위상 (Phase)은 파형 주기 내에서 특정 시점의 위치를 나타내며, 360도 주기에서 특정 각도에 해당함
+
+</details>
+
+#### [4. Saskia](./w8%20-%20saskia/sketch.js)
+
+#### [5. Additive Synthesis](./w8%20-%20additive%20synthesis/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- 개요
+  - 더 복잡한 함수를 그리고 싶을 때 삼각 함수를 더하면 됨
+
+</details>
