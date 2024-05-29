@@ -681,6 +681,8 @@
 
 </details>
 
+[w8-trigon.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/cd321ba3-d7f5-4ff2-b2a9-023f6d9c28aa)
+
 #### [2. Maurer Rose](./w8%20-%20maurer%20rose/sketch.js)
 
 <details>
@@ -727,7 +729,13 @@
 
 </details>
 
+[w8-osc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/6519d796-2431-4d5e-97d5-08c485e06ded)
+
+
 #### [4. Saskia](./w8%20-%20saskia/sketch.js)
+
+[w8-saskia.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/81b9eab6-a01c-4b24-b0d6-2a65ef221ef4)
+
 
 #### [5. Additive Synthesis](./w8%20-%20additive%20synthesis/sketch.js)
 
@@ -738,3 +746,9 @@
   - 더 복잡한 함수를 그리고 싶을 때 삼각 함수를 더하면 됨
 
 </details>
+
+
+[w8-additive.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e99f6d4d-799e-4f98-88d2-7b80addf7d98)
+
+[w8-circular-additive.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/1589dcb7-8cd1-49ea-8f6b-9ef348256384)
+
