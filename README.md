@@ -47,6 +47,8 @@
       - [3. Oscillation](#3-oscillation)
       - [4. Saskia](#4-saskia)
       - [5. Additive Synthesis](#5-additive-synthesis)
+    - [Week 9](#week-9)
+      - [1. Fractals](#1-fractals)
 
 ## Weekly Logs
 
@@ -731,11 +733,9 @@
 
 [w8-osc.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/6519d796-2431-4d5e-97d5-08c485e06ded)
 
-
 #### [4. Saskia](./w8%20-%20saskia/sketch.js)
 
 [w8-saskia.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/81b9eab6-a01c-4b24-b0d6-2a65ef221ef4)
-
 
 #### [5. Additive Synthesis](./w8%20-%20additive%20synthesis/sketch.js)
 
@@ -747,8 +747,22 @@
 
 </details>
 
-
 [w8-additive.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/e99f6d4d-799e-4f98-88d2-7b80addf7d98)
 
 [w8-circular-additive.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/1589dcb7-8cd1-49ea-8f6b-9ef348256384)
 
+### Week 9
+
+#### [1. Fractals](./w9%20-%20fractals/sketch.js)
+
+<details>
+<summary>Note</summary>
+
+- Fractal
+  - 부분을 나눌 수 있는 거칠거나 조각난 기하학적 모양. 각 부분은 전체 모양의 축소된 버전.
+  - Coined by Benoit Mandelbrot
+- Sierpinski carpet
+  - Sierspinski Triangle
+  - Menger Sponge (Cube)
+
+</details>
