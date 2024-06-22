@@ -1,3 +1,4 @@
+
 # Graphics Programming
 
 - A personally practiced p5js code for my graphics programming course
@@ -766,3 +767,8 @@
   - Menger Sponge (Cube)
 
 </details>
+
+<img src="https://github.com/urbanscratcher/study-graphics/assets/17016494/b9878251-6157-4d71-90d5-73a16bfa6adc" width="480px" />
+
+[fractal_tree.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d8e411e9-a506-4ac2-9d21-a4fbbc5c5b6d)
+
