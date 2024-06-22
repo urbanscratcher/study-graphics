@@ -1,5 +1,4 @@
 
-https://github.com/urbanscratcher/study-graphics/assets/17016494/24f9423c-3eae-4602-b066-19c390863ffd
 # Graphics Programming
 
 - A personally practiced p5js code for my graphics programming course
