@@ -1,4 +1,3 @@
-
 # Graphics Programming
 
 - A personally practiced p5js code for my graphics programming course
@@ -50,6 +49,9 @@
       - [5. Additive Synthesis](#5-additive-synthesis)
     - [Week 9](#week-9)
       - [1. Fractals](#1-fractals)
+    - [Week 11](#week-11)
+      - [1. 3D graphics](#1-3d-graphics)
+      - [2. Materials and Lights](#2-materials-and-lights)
 
 ## Weekly Logs
 
@@ -772,3 +774,49 @@
 
 [fractal_tree.webm](https://github.com/urbanscratcher/study-graphics/assets/17016494/d8e411e9-a506-4ac2-9d21-a4fbbc5c5b6d)
 
+### Week 11
+
+#### [1. 3D graphics](./w11%20-%203d%20graphics/index.html)
+
+<details>
+<summary>Note</summary>
+
+1. WebGL(Web Graphics Library) 개요
+
+   - 웹 브라우저에서 플러그인 없이 상호작용 가능한 3D 그래픽을 렌더링하기 위한 JavaScript API입니다.
+   - WebGL은 OpenGL(Open Graphics Library)에 기반하며, GPU 가속을 통해 이미지를 처리합니다.
+   - GPU 가속이란, CPU 대신 GPU(Graphics Processing Unit, 그래픽 처리 장치)를 사용하여 그래픽 작업을 수행하는 것을 의미합니다. GPU는 **대량의 데이터를 병렬로 처리**할 수 있어, 이미지 처리 및 그래픽 생성에서 매우 효율적입니다.
+
+2. GPU와 CPU의 차이
+
+   - GPU는 이미지 생성과 처리를 가속화하기 위해 설계된 특수한 전자 회로입니다. 일반적인 CPU(Central Processing Unit, 중앙 처리 장치)보다 그래픽 작업에서 훨씬 빠릅니다.
+   - GPU는 **병렬 구조** 덕분에 대량의 데이터를 동시에 처리하는 데 뛰어나며, 최근에는 머신 러닝 및 암호화폐 채굴 등의 분야에서도 많이 활용됩니다.
+
+3. p5.js에서 3D 그래픽스 시작하기
+
+   - p5.js는 주로 2D 그래픽을 위한 학습용 라이브러리로 개발되었지만, 3D 그래픽도 지원합니다.
+   - 3D 기능을 활성화하려면 `createCanvas()` 의 3번째 매개변수로 WebGL을 추가해야 합니다. 예를 들어, `createCanvas(900, 600, WEBGL)` 과 같이 작성합니다.
+   - 이렇게 하면 p5.js에서 3D 기능이 활성화되며, 3D 도형(예: 구, 상자 등), 텍스처, 재질, 조명 및 카메라 등을 사용할 수 있습니다.
+
+4. 3D 좌표 시스템
+
+   - 2D 그래픽스에서는 좌표 (0, 0)가 캔버스의 왼쪽 상단 모서리에 위치하지만, 3D 그래픽스에서는 이 좌표가 **화면 중앙**에 위치합니다.
+   - 3D 그래픽스에서는 기존의 x축과 y축 외에 **z축이 추가**됩니다. z축은 화면에서 물체가 멀어지거나 가까워지는 깊이를 나타냅니다.
+   - 물체의 z좌표가 클수록 화면에 가까워지고, z 좌표가 작을수록 화면에서 멀어집니다.
+
+5. 3D 그래픽 작업
+
+   - p5.js에서는 2D 그래픽스에서 사용했던 변환 및 회전 기능을 3D 도형에도 적용할 수 있습니다.
+   - 예를 들어, 3D 공간에서 박스(Box)를 회전시키기 위해 `rotateX`, `rotateY`, `rotateZ` 함수들을 사용할 수 있습니다.
+   - 이러한 변환을 통해 물체를 다양한 축으로 회전시킬 수 있으며, 이로 인해 3D 공간에서의 입체적 효과를 구현할 수 있습니다.
+   - `translate()` 는 물체를 특정 방향으로 이동시키는 데 사용됩니다. 예를 들어, `translate(200, 0, 0)`은 물체를 x축 방향으로 200만큼 이동시킵니다.
+
+6. 3D 렌더링의 본질
+
+   - 3D 그래픽은 실제 3D 공간을 구현하는 것이 아니라, **2D 캔버스에 3D의 환영을 그려내는 것**입니다.
+   - 이는 3D 그래픽스가 특정 방식으로 화면에 투사되기 때문에, 사용자는 2D 화면에서 3D 공간을 경험하는 것처럼 느낍니다.
+   - 예를 들어, 르네상스 시대의 화가 라파엘로의 ‘아테네 학당’ 그림도 2D 표면에 3D 공간의 환영을 만들어내는 것과 같은 원리입니다.
+
+</details>
+
+#### [2. Materials and Lights](./w11)
